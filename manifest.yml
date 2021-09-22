@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-boot-swagger-demo
+  memory: 512M
+  instances: 1
+  path: target/spring-boot-swagger-demo-0.0.1-SNAPSHOT.jar
+  

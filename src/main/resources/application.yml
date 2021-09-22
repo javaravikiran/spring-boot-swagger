@@ -1,0 +1,25 @@
+spring :
+  application:
+      name: Spring Boot Swagger Demo
+      
+  profiles:
+     active:   
+server:
+  port: 6677
+
+#'dev' profile only 
+---  
+spring:
+ profiles: dev
+    
+     
+server:
+  port: 7788
+
+#'prod' profile only  
+---  
+spring:
+ profiles: prod
+     
+server:
+  port: 5566
